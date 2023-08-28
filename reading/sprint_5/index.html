@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fluentify-Reading</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #E6E6FF;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.5;
+        color: #333333;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 50px;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        height: 100px; 
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1> DevOps </h1>
+      <p>
+        Any software development lifecycle (SDLC) has six phases, they are: Requirement gathering, designing, developing, deployment, testing, maintaining.
+      </p>
+      <p>
+        The origins of the DevOps trace back to when the term, “DevOps” was first coined by Patrick Debois in 2009 which is regarded as the DevOps origin year. Debois is now regarded as one of the pioneering figures of DevOps.
+      <h2 id="How It was Before DevOps? :">
+        How It was Before DevOps? : 
+      </h2>
+      <p>
+        Let us take a prime example of a platform that deploys daily, Netflix. As modern consumers of entertainment, we can never imagine a world where Netflix only deploys once a month or every few months. This was the sad state of affairs for developers back in the day when they followed the old waterfall methodology (The waterfall model arranges all the phases of SDLC sequentially so that each new phase depends on the outcome of the previous phase. Conceptually, the design flows from one phase down to the next, like that of a waterfall).
+      </p>
+      <p>
+        As per the brief history of DevOps, the deployment of software, it was first developed and thoroughly tested for months prior to their release in the market. Up till the date of release, the QA would be hustling to test everything and return defects, while developers team would be hustling in bug fixing and sending them faster to the QA so that they could run them through tests. The night prior to the release, the QA and Ops would often ask management to postpone the release date due to the software not being production-ready.  
+      </p>
+      <h3 id="What is DevOps?  :">
+        What is DevOps?  : 
+      </h3>
+      <p>
+        DevOps is a mindset or a culture of working together of Development (Dev) and Operations (Ops) teams followed by some tools and techniques. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. 
+      </p>
+      <h4 id="Phases of DevOps :">
+        Phases of DevOps :
+      </h4>
+      <p>
+        1.Plan: In this stage, teams identify the business requirement and collect end-user feedback. They create a project roadmap to maximize the business value and deliver the desired product during this stage.
+      </p>
+      <p>
+        2.Code: The code development takes place at this stage. The development teams use some tools and plugins like Git to streamline the development process, which helps them avoid security flaws and lousy coding practices.
+      </p>
+      <p>
+        3.Build: In this stage, once developers finish their task, they commit the code to the shared code repository using build tools like Maven and Gradle.
+      </p>
+      <p>
+       4.Test: Once the build is ready, it is deployed to the test environment first to perform several types of testing like user acceptance test, security test, integration testing, performance testing, etc., using tools like JUnit, Selenium, etc., to ensure software quality.
+      </p>
+      <p>
+       5.Release: The build is ready to deploy on the production environment at this phase. Once the build passes all tests, the operations team schedules the releases or deploys multiple releases to production, depending on the organizational needs.
+      </p>
+      <p>
+      6.Deploy: In this stage, Infrastructure-as-Code helps build the production environment and then releases the build with the help of different tools.
+      </p>
+      <p>
+      7.Operate: The release is live now to use by customers. The operations team at this stage takes care of server configuring and provisioning using tools like Chef.
+      </p>
+      <p>
+      8.Monitor: In this stage, the DevOps pipeline is monitored based on data collected from customer behaviour, application performance, etc.
+      </p>
+      <h5 id="Five important C’s of DevOps :">
+        Five important C’s of DevOps :
+      </h5>
+      <p>
+      1.Continuous Development
+      </p>
+      <p>
+      2.Continuous Testing
+      </p>
+      <p>
+      3.Continuous Integration
+      </p>
+      <p>
+      4.Continuous Deployment and delivery
+      </p>
+      <p>
+      5.Continuous Monitoring
+      </p>
+      <p>
+      1.Continuous Development: This phase plays a very important role in describing the vision for the entire software development cycle. It primarily focuses on project planning and coding. During this phase, project requirements are gathered and discussed with stakeholders. 
+      Tools Used: There are no specific tools for planning, but the development team requires some tools for code maintenance. GitLab, GIT etc.
+      </p>
+      <p>
+      2.Continuous Testing: Some teams carry out the continuous testing phase before the integration occurs, while others do it after the integration. Quality analysts continuously test the software for bugs and issues during this stage using Docker containers. In case of a bug or an error, the code is sent back to the integration phase for modification. Automation testing also reduces the time and effort to deliver quality results. Tools like Selenium at this stage. Moreover, continuous testing enhances the test evaluation report and minimizes the provisioning and maintenance cost of the test environments.
+      Tools Used: JUnit, Selenium, TestNG, and TestSigma are a few DevOps tools for continuous testing. Selenium is the most popular open-source automation testing tool that supports multiple platforms and browsers. 
+      </p>
+      <p>
+      3.Continuous Integration: Continuous integration is the most crucial phase in the entire DevOps lifecycle. In this phase, updated code or add-on functionalities and features are developed and integrated into existing code. Furthermore, bugs are detected and identified in the code during this phase at every step through unit testing, and then the source code is modified accordingly. This step makes integration a continuous approach where code is tested at every commit. Moreover, the tests needed are also planned in this phase. 
+      Tools Used: Jenkin, Bamboo, GitLab CI, Buddy, TeamCity, Travis, and CircleCI are a few DevOps tools used to make the project workflow smooth and more productive. For example, Jenkin (open-source tool) is used widely to automate builds and tests. CircleCI and Buddy, on the other hand, are commercial tools.
+      </p>
+      <p>
+      4.Continuous Deployment and delivery: This phase is the crucial and most active one in the DevOps lifecycle, where final code is deployed on production servers. The continuous deployment includes configuration management to make the deployment of code on servers accurate and smooth. Development teams release the code to servers and schedule the updates for servers, keeping the configurations consistent throughout the production process. Containerization tools also help in the deployment process by providing consistency across development, testing, production, and staging environments. This practice made the continuous delivery of new features in production possible.
+      Tools Used: Ansible, Puppet, and Chef are the configuration management tools that make the deployment process smooth and consistent throughout the production process. Docker and Vagrant are another DevOps tool used widely for handling the scalability of the continuous deployment process.
+      </p>
+      <p>
+      5.Continuous Monitoring: During this phase, the application’s functionality and features are monitored continuously to detect system errors such as low memory, non-reachable server, etc. This process helps the IT team quickly identify issues related to app performance and the root cause behind it. If IT teams find any critical issue, the application goes through the entire DevOps cycle again to find the solution. However, the security issues can be detected and resolved automatically during this phase.  
+      Tools Used: Nagios, Kibana, Splunk, ELK Stack, New Relic are a few DevOps tools used to make the continuous monitoring process fast and straightforward.
+      </p>
+      <p>
+   </main>
+    <div class="container">
+      <a class="btn" href="https://forms.office.com/r/xDFJFgfWvE">
+        Take Challenge
+      </a>
+    </div>
+  </body>
+</html>
